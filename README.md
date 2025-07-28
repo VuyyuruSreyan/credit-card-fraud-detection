@@ -1,57 +1,45 @@
-# Credit Card Fraud Detection
+# 💳 Credit Card Fraud Detection
 
-🚀 A machine learning project to detect fraudulent transactions using the popular credit card fraud dataset.
+🚀 A complete end-to-end machine learning project to detect fraudulent transactions using a real-world, highly imbalanced dataset.
+
+---
 
 ## 📌 Overview
 
-- Classification problem using imbalanced dataset
-- Implemented data preprocessing, feature engineering, and model training
-- Evaluated using accuracy, precision, recall, and F1-score
+- ✅ Built using **Jupyter Notebook** with clear modular cells
+- 🔍 Addressed **class imbalance** for better fraud detection
+- 🧹 Implemented **data preprocessing & feature scaling**
+- 🤖 Trained with **Random Forest Classifier**
+- 📈 Evaluated using **confusion matrix**, **classification report**, and **feature importance graphs**
+
+---
 
 ## 🛠️ Tech Stack
-- Python (Pandas, Scikit-Learn, Matplotlib)
-- Jupyter Notebook
+
+- Python (Pandas, Scikit-Learn, Seaborn, Matplotlib)
+- Jupyter Notebook (via VS Code)
 - Git for version control
 
+---
 
 ## 📂 Dataset
 
-> Due to GitHub's 25MB file size limit, the dataset file `creditcard.csv` is **not included** in this repository.
+> ⚠️ Due to GitHub’s 25MB limit, the `creditcard.csv` dataset is **not included** here.
 
-You can download the dataset from Kaggle:
+Download it from Kaggle:
 
-🔗 [Credit Card Fraud Detection Dataset on Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+🔗 [Credit Card Fraud Dataset on Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-After downloading:
+Then:
 
-1. Unzip the file if needed  
-2. Place the `creditcard.csv` file in your project folder, like this:
+1. Unzip it (if zipped)
+2. Place `creditcard.csv` in the **same folder** as your `.ipynb` notebook
 
+Folder structure:
 
-
-## 🚦 How to Run
-1. Clone this repo:
-    ```bash
-    git clone https://github.com/VuyyuruSreyan/credit-card-fraud-detection.git
-    cd credit-card-fraud-detection
-    ```
-2. Install dependencies:
-    ```bash
-    pip install pandas scikit-learn matplotlib
-    ```
-3. Run the Jupyter notebook or Python script to train and evaluate the model.
-
----
-
-## 📊 Results
-- Achieved high recall to effectively detect fraud cases while minimizing false negatives.
-
----
-
-## ⭐ Contribution
-If you want to extend this project with advanced models (XGBoost, LightGBM, or Neural Networks), feel free to fork and contribute!
-
----
-
-## 📬 Contact
-If you have questions, reach out via [LinkedIn](https://www.linkedin.com/in/yourprofile) or email: vuyyurusreyan@gmail.com.
+```bash
+CreditCardFraudDetection/
+├── creditcard.csv
+├── ccfd.ipynb
+├── README.md
+└── ...
