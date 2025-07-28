@@ -13,7 +13,7 @@
 - Jupyter Notebook
 - Git for version control
 
-## 🗂️ Dataset
+
 ## 📂 Dataset
 
 > Due to GitHub's 25MB file size limit, the dataset file `creditcard.csv` is **not included** in this repository.
