@@ -14,10 +14,20 @@
 - Git for version control
 
 ## 🗂️ Dataset
-Due to GitHub file size limits, the `creditcard.csv` dataset is **not included**.  
-You can download it from [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+## 📂 Dataset
 
-Place it in your working directory before running the notebook.
+> Due to GitHub's 25MB file size limit, the dataset file `creditcard.csv` is **not included** in this repository.
+
+You can download the dataset from Kaggle:
+
+🔗 [Credit Card Fraud Detection Dataset on Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+After downloading:
+
+1. Unzip the file if needed  
+2. Place the `creditcard.csv` file in your project folder, like this:
+
+
 
 ## 🚦 How to Run
 1. Clone this repo:
